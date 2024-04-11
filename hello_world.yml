@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  gather_facts: false
+  max_fail_percentage: 0 
   hosts: all
   tasks:
     - name: Hello Message
