@@ -3,5 +3,6 @@
   hosts: all
   tasks:
     - name: Hello Message
+      ignore_unreachable: true
       debug:
         msg: "Hello World!"
