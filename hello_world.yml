@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  max_fail_percentage: 0 
+  ignore_unreachable: true 
   hosts: all
   tasks:
     - name: Hello Message
